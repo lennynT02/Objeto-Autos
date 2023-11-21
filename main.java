@@ -40,6 +40,7 @@ public class main {
 
         //obtener los valores de cada atributos
 
+        System.out.println("AUTOS....................");
         System.out.println("Marca: "+miAuto1.getMarca()+" Modelo: "+miAuto1.getModelo()+" Color: "+miAuto1.getColor()+" Velocidad: "+miAuto1.getVelocidad()+" Año: "+miAuto1.getAnio()+"\n");
         System.out.println("Marca: "+miAuto2.getMarca()+" Modelo: "+miAuto2.getModelo()+" Color: "+miAuto2.getColor()+" Velocidad: "+miAuto2.getVelocidad()+" Año: "+miAuto2.getAnio()+"\n");
         System.out.println("Marca: "+miAuto3.getMarca()+" Modelo: "+miAuto3.getModelo()+" Color: "+miAuto3.getColor()+" Velocidad: "+miAuto3.getVelocidad()+" Año: "+miAuto3.getAnio()+"\n");
