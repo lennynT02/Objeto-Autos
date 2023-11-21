@@ -1,4 +1,4 @@
-public class Main {
+public class main {
     public static void main(String[] args) {
         System.out.println("TEST DE REPASO");
 
@@ -40,8 +40,11 @@ public class Main {
 
         //obtener los valores de cada atributos
 
-        System.out.println("Marca: "+miAuto1.getMarca()+"Modelo: "+miAuto1.getModelo()+" Color: "+miAuto1.getColor()+" Velocidad: "+miAuto1.getVelocidad()+" Año: "+miAuto1.getAnio());
-
-
+        System.out.println("Marca: "+miAuto1.getMarca()+" Modelo: "+miAuto1.getModelo()+" Color: "+miAuto1.getColor()+" Velocidad: "+miAuto1.getVelocidad()+" Año: "+miAuto1.getAnio()+"\n");
+        System.out.println("Marca: "+miAuto2.getMarca()+" Modelo: "+miAuto2.getModelo()+" Color: "+miAuto2.getColor()+" Velocidad: "+miAuto2.getVelocidad()+" Año: "+miAuto2.getAnio()+"\n");
+        System.out.println("Marca: "+miAuto3.getMarca()+" Modelo: "+miAuto3.getModelo()+" Color: "+miAuto3.getColor()+" Velocidad: "+miAuto3.getVelocidad()+" Año: "+miAuto3.getAnio()+"\n");
+        System.out.println("Marca: "+miAuto4.getMarca()+" Modelo: "+miAuto4.getModelo()+" Color: "+miAuto4.getColor()+" Velocidad: "+miAuto4.getVelocidad()+" Año: "+miAuto4.getAnio()+"\n");
+        System.out.println("Marca: "+miAuto5.getMarca()+" Modelo: "+miAuto5.getModelo()+" Color: "+miAuto5.getColor()+" Velocidad: "+miAuto5.getVelocidad()+" Año: "+miAuto5.getAnio()+"\n");
+        System.out.println("Suma de sus años: "+ (miAuto1.getAnio()+miAuto2.getAnio()+miAuto3.getAnio()+miAuto4.getAnio()+miAuto5.getAnio()));
     }
 }
