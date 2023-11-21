@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
+        Scanner variable=new Scanner(System.in);
         System.out.println("TEST DE REPASO");
-
+        String modelo;
         Autos miAuto1;
         Autos miAuto2;
         Autos miAuto3;
@@ -13,8 +15,8 @@ public class main {
         miAuto3=new Autos("Gris");
         miAuto4=new Autos("Rosado");
         miAuto5=new Autos("Negro");
-
-        miAuto1.setMarca("Chevrolet");
+        modelo=variable.nextLine();
+        miAuto1.setMarca(modelo);
         miAuto2.setMarca("Nissan");
         miAuto3.setMarca("Toyota");
         miAuto4.setMarca("lamborghini");

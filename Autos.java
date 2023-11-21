@@ -15,7 +15,9 @@ public class Autos  {
     String  getMarca(){
         return marca;
     }
-    String getModelo(){return modelo;}
+    String getModelo(){
+        return modelo;
+    }
     String getVelocidad(){
         return velocidad;
     }
@@ -27,11 +29,15 @@ public class Autos  {
     void setMarca (String  newMarca){
         this.marca=newMarca;
     }
-    void setModelo (String newModelo){this.modelo=newModelo;}
+    void setModelo (String newModelo){
+        this.modelo=newModelo;
+    }
     void setVelocidad (String newVelocidad){
         this.velocidad=newVelocidad;
     }
-    void setAnio (int newAnio){this.anio=newAnio;}
+    void setAnio (int newAnio){
+        this.anio=newAnio;
+    }
 }
 
 
