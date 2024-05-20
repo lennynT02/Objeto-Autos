@@ -4,6 +4,7 @@ public class Autos  {
     String marca;
     String modelo;
     String velocidad;
+    String placa;
     int  anio;
     //---------------------------------------------------------------------------------
     Autos  (String  nuevoColor){
